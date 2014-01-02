@@ -1,0 +1,11 @@
+﻿Board locations:
+0 = GO
+10 = Just Visiting
+20 = Free Parking
+30 = Go TO Jail
+101 = undef
+102 = Utility and pay 10x
+103 = railroad and pay 2x
+104 = JAIL
+105 = repairs (25/100)
+106 = repairs (40/115)

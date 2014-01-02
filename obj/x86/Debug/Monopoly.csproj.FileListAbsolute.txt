@@ -1,0 +1,6 @@
+C:\Users\Chris\documents\visual studio 2010\Projects\Monopoly\Monopoly\obj\x86\Debug\Monopoly.Properties.Resources.resources
+C:\Users\Chris\documents\visual studio 2010\Projects\Monopoly\Monopoly\obj\x86\Debug\Monopoly.csproj.GenerateResource.Cache
+C:\Users\Chris\documents\visual studio 2010\Projects\Monopoly\Monopoly\bin\Debug\Monopoly.exe
+C:\Users\Chris\documents\visual studio 2010\Projects\Monopoly\Monopoly\bin\Debug\Monopoly.pdb
+C:\Users\Chris\documents\visual studio 2010\Projects\Monopoly\Monopoly\obj\x86\Debug\Monopoly.exe
+C:\Users\Chris\documents\visual studio 2010\Projects\Monopoly\Monopoly\obj\x86\Debug\Monopoly.pdb

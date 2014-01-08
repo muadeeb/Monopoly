@@ -8,12 +8,33 @@ namespace Monopoly
     class Player
     {
         private int Cash = 1500;
+        private List<int> Owned = new List<int>();
 
         public Player() {}
 
-        int getCash() { return Cash; }
+        public void addOwned(int p)
+        {
+            if (!isOwned(p)) Owned.Add(p);
+        }
 
-        void setCash(int amount)
+        public int getCash() 
+        { 
+            return Cash; 
+        }
+
+        public bool isOwned(int p)
+        {
+            foreach (int i in Owned)
+                if (i == p) return true;
+            return false;
+        }
+
+        public void Sell(int p)
+        {
+            Owned.Remove(p);
+        }
+
+        public void setCash(int amount)
         {
             Cash += amount;
         }

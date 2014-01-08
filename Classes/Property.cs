@@ -59,18 +59,18 @@ namespace Monopoly
             PropertyColor = clr;
         }
 
-        Color color() { return this.PropertyColor; }
+        public Color color() { return this.PropertyColor; }
         
-        bool isMonopoly() { return this.PropertyMonopoly; }
+        public bool isMonopoly() { return this.PropertyMonopoly; }
 
-        bool isRR()
+        public bool isRR()
         {
             if (this.PropertyColor == Color.Gray)
                 return true;
             else return false;
         }
 
-        bool isUtility()
+        public bool isUtility()
         {
             if (this.PropertyColor == Color.White)
                 return true;

@@ -52,7 +52,11 @@
     <Compile Include="Board.Designer.cs">
       <DependentUpon>Board.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Bank.cs" />
     <Compile Include="Classes\Cards.cs" />
+    <Compile Include="Methods\Global.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Classes\Player.cs" />
     <Compile Include="Methods\initBoard.cs">
       <SubType>Form</SubType>
@@ -63,12 +67,33 @@
     <Compile Include="Methods\initChance.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="NumPlayersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumPlayersForm.Designer.cs">
+      <DependentUpon>NumPlayersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayerNames.Designer.cs">
+      <DependentUpon>PlayerNames.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\Property.cs" />
     <Compile Include="Methods\Roll.cs">
       <SubType>Form</SubType>
     </Compile>
+    <EmbeddedResource Include="Board.resx">
+      <DependentUpon>Board.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumPlayersForm.resx">
+      <DependentUpon>NumPlayersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayerNames.resx">
+      <DependentUpon>PlayerNames.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

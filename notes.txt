@@ -3,9 +3,15 @@
 10 = Just Visiting
 20 = Free Parking
 30 = Go TO Jail
+
+51 = CC get out of jail card
+52 = Chance get out of jail card
+
 101 = undef
 102 = Utility and pay 10x
 103 = railroad and pay 2x
 104 = JAIL
 105 = repairs (25/100)
 106 = repairs (40/115)
+
+banker.isUsed(1,0) //card 0 of CHANCE deck  Any other number in 1st pos is CChest
